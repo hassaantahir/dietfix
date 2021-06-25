@@ -38,13 +38,24 @@ close_menu.addEventListener('click',function(){
 
 
  //inner width capture function 
-window.onresize = function() {
-           
+window.onresize = function() {        
    let broswerWidth = window.innerWidth; 
-
 if(broswerWidth > 1050 && broswerWidth < 1180 ){
     menu.style.display = 'none';
     Main_menu.setAttribute('id','show-navbar-ul');
  }
  
 };
+
+// window.onresize = function() {        
+//    let broswerWidth = window.innerWidth; 
+   
+// if(broswerWidth > 1061){
+//    drowdown_item.addEventListener('click',function(){
+//      //alert('click');
+//       // menu.style.display= 'none';
+//       // Main_menu.removeAttribute('id','show-navbar-ul');
+//    });
+//  }
+ 
+// };
