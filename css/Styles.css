@@ -102,10 +102,10 @@
   position: absolute;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: white;
-  top:78px;
+  top:79px;
   left: 0;
   transition: all 0.3s linear;
-  width: 230px;
+  width: 250px;
   display: none;
   /*box-shadow: 5px 5px 5px rgb(0, 0, 0,0.2),-5px  5px rgb(0, 0, 0,0.2) ;
   */-webkit-transition: all 0.3s linear;
@@ -113,24 +113,21 @@
   -moz-transition: all 0.3s linear;
   -ms-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
+  border: 1px solid #B58F61;
 }
  .nav-bar .navbar-ul .drop-down .dropdownmenu .dropdownitem{
-    font-weight: 150;
+    font-weight: 300;
     display: block;
     color: black;
-    font-weight: 150px;
+    font-size: 15px;
+    line-height: 25.5px;
     text-decoration: none;
-  padding-top: 10px;
-   padding-bottom: 10px;
-  padding-left: 10px;
-  border-bottom: 1px solid #B58F61;
-  text-transform: uppercase;
+    padding:8px 15px;
+    border-bottom: 1px solid #B58F61;
+    text-transform: uppercase;
  
  }
- .nav-bar .navbar-ul .drop-down .dropdownmenu .dropdownitem:first-child{
-   
-    border-top: 1px solid #B58F61;
-   }
+
    .nav-bar .navbar-ul .drop-down .dropdownmenu .backBtn{
    display: none;
    }
@@ -264,10 +261,9 @@ section.slider .slide-img3{
   }
 }
 
-.desc-article{
-margin-top: 6rem;
-margin-bottom: 6rem;
-
+.desc-article .containers{
+  max-width: 100%;
+  padding: 5.5rem 11rem;
 }
 .desc-article .title {
   margin-bottom: 2rem;
@@ -318,10 +314,14 @@ margin-bottom: 6rem;
       background-repeat: no-repeat;
       background-size: cover;
       width: 100%;
-      height: 75vh;
+      height: 110vh;
       display: flex;
       align-items: center;
       background-attachment: fixed;
+    }
+    .our-philosophy  .containers{
+      max-width: 71%;
+      padding: 5.5rem 8rem;
     }
     .our-philosophy .info{
       background-color: white;
@@ -461,41 +461,41 @@ margin-bottom: 6rem;
         outline: none;
         background: transparent;
         background-color: #B58F61;
-        padding: 8px 8px 8px 8px  ;
+        padding: 5.5px 17px 5.5px 17px  ;
         display: block;
         margin-left: auto;
         margin-right: auto;
         font-family: 'Lato', sans-serif;
         font-weight: 300 !important;
         font-size: 17.6px;
-        transition: all 0.4s linear;
-        -webkit-transition: all 0.4s linear;
-        -moz-transition: all 0.4s linear;
-        -ms-transition: all 0.4s linear;
-        -o-transition: all 0.4s linear;
+        transition: all 0.3s linear;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        -ms-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
 }
 
 
      section.contact .contact-info button a{
        color: white;
        text-decoration: none;
-       transition: all 0.4s linear;
-       -webkit-transition: all 0.4s linear;
-       -moz-transition: all 0.4s linear;
-       -ms-transition: all 0.4s linear;
-       -o-transition: all 0.4s linear;
+       transition: all 0.3s linear;
+       -webkit-transition: all 0.3s linear;
+       -moz-transition: all 0.3s linear;
+       -ms-transition: all 0.3s linear;
+       -o-transition: all 0.3s linear;
        position: relative;
 }
       section.contact .contact-info button a::after{
  content: '\00bb';
  opacity: 0;
  position: absolute;
- right: 3px;
- transition: all 0.4s linear;
- -webkit-transition: all 0.4s linear;
- -moz-transition: all 0.4s linear;
- -ms-transition: all 0.4s linear;
- -o-transition: all 0.4s linear;
+ right: 2px;
+ transition: all 0.3s linear;
+ -webkit-transition: all 0.3s linear;
+ -moz-transition: all 0.3s linear;
+ -ms-transition: all 0.3s linear;
+ -o-transition: all 0.3s linear;
 }
  
        section.contact .contact-info button:hover {
@@ -519,6 +519,7 @@ margin-bottom: 6rem;
         height: 100%;
         background-size: cover;
         background-attachment: fixed;
+        background-position: center center;
       }
       footer{
         background-color: #56334F;
@@ -657,7 +658,6 @@ margin-bottom: 6rem;
     -moz-transform: scale(0.3,0.3);
     -ms-transform: scale(0.3,0.3);
     -o-transform: scale(0.3,0.3);
-  
 }
 50%{
   opacity: 1;
@@ -1154,16 +1154,156 @@ section.bg-image.adolescent-sec .img-div{
   height: 100%;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center center;
 }
+.patterns.adolescent-sec .img-div{
+  max-width:45%;
+  height: 400px;
+  background-image: url('../images/shutterstock_1164537988-2000Wx1064H.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center ;
+}
+.EatingDisorder-symptom .list b  {
+  font-weight: 700;
+ }
+ .patterns-second .img-div.adolescent-img{
+  max-width:45%;
+  height: 400px;
+  background-image: url('../images/shutterstock_230876509-2000Wx1064H.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center ;
+   margin-left:auto
+}
+.service-header.gastro-sec .img-container{
+  background-image: url('../images/shutterstock_713425027-2000Wx1064H.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position: center center;
+  background-color: silver;
+  position: relative;
+  background-attachment: fixed;
+}
+.patterns .img-div.gastro-img{
+  max-width:45%;
+  height: 400px;
+  background-image: url('../images/shutterstock_653304418-2000Wx1064H.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center ;
+}
+.patterns-second .img-div.gastro-img{
+  max-width:45%;
+  height: 400px;
+  background-image: url('../images/shutterstock_696813694-2000Wx1064H.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center ;
+   margin-left:auto
+}
+section.bg-image.gastro-sec .img-div{
+  background-image: url('../images/shutterstock_1446264497-2000Wx1064H.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.EatingDisorder-header .img-container.nutritionists-img{
+  background-image: url('../images/shutterstock_594101840-2000Wx1064H.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position: center center;
+  background-color: silver;
+  position: relative;
+  background-attachment: fixed;
+}
+.nutrition-sec{
+ padding: 5.5rem 12rem;
+}
+.nutrition-sec .containers .img{
+   width: 200;
+   height: auto;
+   float: right;
+   margin-top: 12rem;
+   margin-left: 30px;
+   margin-bottom: 15px;
+   shape-outside:url(../images/nutritionist-rebecca-appleman-wpcf_200x280.jpg);
+   shape-margin: 15px;
+ }
+ .nutrition-sec .containers .title h3{
+ font-family: 'Lato',sans-serif;
+ font-size: 38.4px;
+ font-weight:300;
+ line-height:49.92px;
+ letter-spacing:3px ;
+ margin-bottom: 2rem;
+}
+
+.nutrition-sec .containers .info h4{
+  font-family: 'Lato',sans-serif;
+  font-size: 22.4px;
+  font-weight:400;
+  line-height:31.36px;
+  letter-spacing:2px ;
+  color:#b58f61;
+ }
+ .nutrition-sec .containers .info .underline{
+  width: 220px;
+  height: 1px;
+  background-color: #b58f61;
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+}
+.nutrition-sec .containers .info h5{
+  font-family: 'Lato',sans-serif;
+  font-size: 17.6px;
+  font-weight:400;
+  line-height:28.88px;
+  letter-spacing:2px ;
+}
+.nutrition-sec .containers .info p{
+  font-family: 'Lato',sans-serif;
+  font-size: 17.6px;
+  font-weight:300;
+  line-height:33.44px;
+ 
+}
+
+
 @media (min-width:1050px) and (max-width:1198px){
     .nav-bar .navbar-ul .nav-item .nav-link{
         font-size: 13px;
         padding-right: 0px;       
      }
-     .EatingDisorder-treament .containers{
-      padding: 3.4rem 5rem;
+     .desc-article .containers{
+      padding: 3.4rem 5.5rem;
     }
-
+    .desc-article .containers .title h3{
+      font-size: 30.4px;
+    }
+    .desc-article .containers .info h4{
+      font-size: 22.4px;
+    }
+    .desc-article .containers .info p{
+      font-size: 19.2px;
+    }
+    .our-philosophy{
+      height: 90vh;
+    }
+    .our-philosophy  .containers{
+      max-width: 74%;
+      padding: 3rem 4rem;
+    }
+     .EatingDisorder-treament .containers{
+      padding: 3.4rem 5.5rem;
+    }
      .patterns .text{
       padding: 40px 40px;
       top: 19%;
@@ -1173,7 +1313,7 @@ section.bg-image.adolescent-sec .img-div{
       font-size: 24px;
     }
     .EatingDisorder-symptom{
-      padding: 3.4rem 5rem;
+      padding: 3.4rem 5.5rem;
     }
 
     .patterns-second .text{
@@ -1185,8 +1325,12 @@ section.bg-image.adolescent-sec .img-div{
       font-size: 24px;
    }
    .peace-food{
-    padding: 3.4rem 5rem;
+    padding: 3.4rem 5.5rem;
   }
+  .nutrition-sec{
+    padding: 3.4rem 5.5rem;
+  }
+
 }
 @media (max-width:1060px){
     .nav-bar{
@@ -1211,33 +1355,37 @@ section.bg-image.adolescent-sec .img-div{
           left: 0px;
           background-color: #B58F61;
           z-index: 2;
-          display: none;
-        
+          display: none;    
 }
         .nav-bar .navbar-ul .nav-item{
-            display: block;
-            padding: 10px 0px 0px 15px;
             border-bottom: 1px solid white;
-            width: 100%; 
-            
+            width: 100%;  
+            padding: 0;
+            margin:0
         }
         .nav-bar .navbar-ul .nav-item:hover {
            background-color: white;
-          
-            
+                 
         }
         
         .nav-bar .navbar-ul .nav-item .nav-link{
            color: white;
            text-transform: uppercase;
-           font-weight: 350;
-         
+           font-weight: 300;
+           padding: 8px 20px;
+           font-family: 'Lato',sans-serif;
+           font-size: 16px;
+           display: block;
+           /* line-height: 20px; */
         }
+        .nav-bar .navbar-ul .nav-item:last-child{
+         border-bottom: none;
+       }
         .nav-bar .navbar-ul .drop-down .nav-link{
-         
           display: flex;
           justify-content:space-between;
           width: 100%;
+          align-items: center;
 
        }
         .nav-bar .navbar-ul .drop-down .nav-link i{
@@ -1268,22 +1416,23 @@ section.bg-image.adolescent-sec .img-div{
 
 .nav-bar .dropdownmenu-small-screen .dropdownitem{
            display: block;
-           padding: 10px 0px 10px 15px;
+           padding: 12px  20px;
            border-bottom: 1px solid white;
             text-transform: uppercase;
             color: white;
             text-decoration: none;
- 
+            font-family: 'Lato',sans-serif;
+            font-size: 16px;
+            font-weight: 300;
 
 }
 .nav-bar .dropdownmenu-small-screen .backBtn{
-  display: block;    
- background-color:  #925606;
-
+ display: block;
+ background-color:  #9e7d57;
 }
 .nav-bar .dropdownmenu-small-screen .dropdownitem:last-child{
   padding-bottom: 10px;
- 
+  border-bottom:none;
 
 }
 .nav-bar .dropdownmenu-small-screen .dropdownitem:hover{
@@ -1292,15 +1441,32 @@ section.bg-image.adolescent-sec .img-div{
 
 }
 .nav-bar .navbar-ul .drop-down:hover .dropdownmenu{
-   
   display: none;
 }  
-         .desc-article{
-          margin-top: 3rem;
-          margin-bottom: 3rem;
-          
-          }
-
+.desc-article .containers{
+  padding: 3.4rem 5.5rem;
+}
+.desc-article .containers .title h3{
+  font-size: 30.4px;
+}
+.desc-article .containers .info h4{
+  font-size: 22.4px;
+}
+.desc-article .containers .info p{
+  font-size: 19.2px;
+}
+.our-philosophy{
+  height: 90vh;
+}
+.our-philosophy  .containers{
+  max-width: 100%;
+  padding: 3rem 4rem;
+  text-align: center;
+}
+.our-philosophy  .containers .underline{
+margin-left: auto;
+margin-right: auto;
+}
           .our-services .container{
             margin-top: 3.4rem;
             padding-left:4rem;
@@ -1411,6 +1577,33 @@ section.bg-image.adolescent-sec .img-div{
           width: 100%;
           height: 300px; 
         }
+        .patterns.adolescent-sec .img-div{
+          display: block;
+          max-width: 100%;
+          width: 100%;
+          height: 300px;
+        }
+        .patterns-second .img-div.adolescent-img{
+          display: block;
+          max-width: 100%;
+          width: 100%;
+          height: 300px; 
+        }
+        .patterns .img-div.gastro-img{
+          display: block;
+          max-width: 100%;
+          width: 100%;
+          height: 300px;
+        }
+        .patterns-second .img-div.gastro-img{
+          display: block;
+          max-width: 100%;
+          width: 100%;
+          height: 300px; 
+        }
+        .nutrition-sec{
+          padding: 3.4rem 5rem;
+        }
 }
 
 @media (max-width:992px){
@@ -1424,12 +1617,13 @@ section.bg-image.adolescent-sec .img-div{
        }
        .nav-bar .navbar-brand h2{
         font-size: 1.8rem;
-   
       }
       .nav-bar .navbar-brand h3{
-          font-size: 1.2rem;
-          
-        
+          font-size: 1.2rem; 
+        }
+        .slider .img-container img{
+          width: 429px;
+          height: 77px;
         }
       .desc-article .container{
           max-width: 100%;
@@ -1536,16 +1730,42 @@ section.bg-image.adolescent-sec .img-div{
            .peace-food .text h3{
              font-size: 22.4px;
            } 
+           .nutrition-sec .containers .title h3{
+            font-size: 30.4px;
+            line-height:39.92px;
+           }
+
 }
 @media (max-width:772px){
+  .slider .img-container img{
+    width: 344px;
+    height: 61px;
+  }
   section.slider .overlay{
     padding-left: 10px;
     padding-right: 10px;
   }
-  .desc-article .container{
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
+  .desc-article .containers{
+    padding: 2rem 3rem;
+  }
+  .desc-article .containers .title{
+    margin-bottom: 1.3rem;
+  }
+  .desc-article .containers .title h3{
+    font-size: 24px;
+  }
+  .desc-article .info .underline{
+    width: 30%;   
+  }
+  .desc-article .containers .info h4{
+    font-size: 17.4px;
+  }
+  .desc-article .containers .info p{
+    font-size: 16.2px;
+  }
+  .desc-article .containers .info p:nth-child(3){
+    margin-bottom: 0.1rem;
+  }
 .our-philosophy{
   height: 100vh;
 }
@@ -1554,6 +1774,18 @@ section.bg-image.adolescent-sec .img-div{
      padding-left: 3rem;
     padding-right: 3rem;
   }
+  .feature .container .info h3{
+    font-size: 17.6px;
+ }
+ .feature .container .menu-div h3{
+  font-size: 17.6px;
+}
+.feature .container .menu-div .menu-item ul li {
+ line-height: 20px;
+}
+.feature .container .menu-div .menu-item ul li a{
+  font-size: 17.6px;
+}
   section.contact .contact-info{
     padding-left: 10px;
     padding-right: 10px;
@@ -1570,7 +1802,7 @@ section.bg-image.adolescent-sec .img-div{
   section.bg-image{
       
     width: 100%;
-    height: 35vh;
+    height: 50vh;
  
   }
   footer address  .address-info h4{
@@ -1715,7 +1947,7 @@ margin-bottom: 0.8rem;
         width: 30%;
       } 
       .EatingDisorder-symptom .text p{
-       font-size: 15.4px;
+       font-size: 16.2px;
       
       } 
       .EatingDisorder-symptom .text .list li{
@@ -1748,7 +1980,7 @@ margin-bottom: 0.8rem;
         width: 30%;
       } 
       .peace-food .text p{
-       font-size: 15.4px;
+       font-size: 16.2px;
       }  
       .patterns.weight-sec .img-div{
         height: 200px;
@@ -1762,7 +1994,35 @@ margin-bottom: 0.8rem;
       .patterns-second .img-div.pediatric-img{
         height: 200px;
       }
-
+      .patterns.adolescent-sec .img-div{
+        height: 200px;
+      }
+      .patterns-second .img-div.adolescent-img{
+        height: 200px;
+      }
+      .patterns .img-div.gastro-img{
+        height: 200px;
+      }
+      .patterns-second .img-div.gastro-img{
+        height: 200px;
+      }
+      .nutrition-sec{
+        padding: 2rem 3rem;
+      }
+      .nutrition-sec .containers .title h3{
+        font-size: 22px;
+        font-weight:300;
+        line-height:31.2px;
+       }
+       .nutrition-sec .containers .info h4{
+        font-size: 17.6px;
+        line-height:24.64px;
+       }
+       .nutrition-sec .containers .info p{
+        font-size: 16.6px;
+        line-height:27.44px;
+      }
+       
 }
 
 
@@ -1790,23 +2050,67 @@ margin-bottom: 0.8rem;
       .nav-bar .navbar-brand h3{
           font-size: 1rem; 
         }
+        .slider .img-container img{
+          width: 269px;
+          height: 46px;
+        }
+        .desc-article .containers{
+          padding: 2rem 2.7rem 2rem 2.7rem;
+        }
+        .desc-article .containers .title{
+          margin-bottom: 1.7rem;
+        }
+        .desc-article .info .underline{
+          width: 30%;   
+          margin-bottom: 0.7rem;
+        }
+        .desc-article .containers .info h4{
+          font-size: 17.4px;
+          line-height: 25px;
+        }
+        .desc-article .containers .info p{
+          font-size: 16px;
+          line-height: 25px;
+        }
+        .desc-article .containers .info p:nth-child(3){
+          margin-bottom: 0.2rem;
+        }
+        .desc-article .containers .info p:nth-child(4){
+          margin-bottom: 1.6rem;
+        }
         .our-philosophy{
           height: 120vh;
         }
-        .desc-article{
-          margin-top: 1.4rem;
-          margin-bottom: 1.4rem;
-          
-          }
+        .our-philosophy{
+        
+            min-height: 100vh;
+     
+        }
+        .our-philosophy .containers{
+          padding-left: 3.4rem;
+          padding-right: 3.4rem;
+        }
+       
+        .our-philosophy .info h3{
+          font-size: 16.6px;
+     
+        }
+        .our-philosophy .info .underline{
+          width: 30%;
+     
+        }
+        .our-philosophy .info p{
+          font-size: 16px;
+     
+        }
+        .our-philosophy .info {
+          padding-left: 15px;
+          padding-right: 15px;
+        }
           .feature .info{
             padding-left:0.5rem ;
-            
           }
-           .feature .info h3{
-          
-            font-size: 1.3rem;
-            
-          }
+        
           .feature .info .underline{
             width: 30%;
              
@@ -1814,26 +2118,41 @@ margin-bottom: 0.8rem;
            .feature .menu-div{
           padding-left: 0.5rem;
           }
-           .feature .menu-div h3{
-            font-size: 1.3rem;
-          }
+          
           .feature .menu-div .underline{
             width: 30%;
              
            }
            .feature .menu-div .menu-item ul{
             padding-left: 1rem;
-             
            }
-        
-           .feature .menu-div .menu-item ul li a{
-             font-size: 1.1rem;
-              
-            }
-
+           .feature .info p{
+           font-size: 16px;
+           line-height: 24.33px;
+           }
             section.contact{
               height: 70vh;
              }
+             section.contact .contact-info button{
+              font-family: 'Lato', sans-serif;
+              font-weight: 300 !important;
+              font-size: 14.5px;       
+             }
+      section.contact .contact-info button a{
+        font-size: 14.4px;
+       }
+       section.contact .contact-info button a::after{
+        right: 8px;
+       }
+section.contact .contact-info button:hover a{
+       
+  padding-right: 33px;
+   }
+  
+   section.contact .contact-info button:hover{
+    padding-right: 0px;
+
+   }
             footer address  .address-info h4{
               font-size: 1.1rem;
            
@@ -1973,52 +2292,52 @@ margin-bottom: 0.8rem;
 /* padding: 5px 20px; */
 }
 .EatingDisorder-treament .containers{
-  padding: 2rem 2rem;
+  padding:2rem 2.7rem 2rem 2.7rem
 }
 .EatingDisorder-treament .title h3{
-  font-size: 20px;
+  font-size: 24px;
 }
 .EatingDisorder-treament .info h4{
-  font-size: 15.8px;   
+  font-size: 17.4px;   
 }
 .EatingDisorder-treament .info p{
-  font-size: 15.5px;   
+  font-size: 16px;   
 }
 .EatingDisorder-treament .info p:nth-child(3){
   padding-bottom: 0.2rem;
     
   }
   .EatingDisorder-symptom{
-    padding: 2rem 2rem;
+    padding:2rem 2.7rem 2rem 2.7rem;
   }
    .EatingDisorder-symptom .title h3{
-     font-size: 15.6px;
+     font-size: 24px;
      line-height: 24.64px;
    } 
    .EatingDisorder-symptom .title .underline{
     width: 30%;
   } 
   .EatingDisorder-symptom .text p{
-   font-size: 14.4px;
+    font-size: 16px; 
    line-height: 26px;
   
   } 
   .EatingDisorder-symptom .text .list li{
-    font-size: 14.4px;
+    font-size: 16px; 
     line-height: 26px;
    } 
    .peace-food{
-    padding: 2rem 2rem;
+    padding:2rem 2.7rem 2rem 2.7rem;
   }
    .peace-food .title h3{
-     font-size: 15.6px;
+     font-size: 24px;
      line-height: 24.64px;
    } 
    .peace-food .title .underline{
     width: 30%;
   } 
   .peace-food .text p{
-   font-size: 15.5px;
+   font-size: 16px;
    line-height: 28px;
   
   } 
@@ -2040,71 +2359,65 @@ margin-bottom: 0.8rem;
    
       }
       .nav-bar .navbar-brand h3{
-          font-size: 0.8rem;
-          
+          font-size: 0.8rem;  
         }
-      
-        .desc-article .container{
-          padding-left: 1.4rem;
-          padding-right: 1.4rem;
+        .slider .img-container img{
+          width: 182px;
+          height: 32px;
+        }
+        .desc-article .containers{
+          padding-left: 1.7rem;
+          padding-right: 1.7rem;
       }
       
         .feature .container{
            padding-left: 1.4rem;
           padding-right: 1.4rem;
         }
-        .desc-article .title h3{
-          font-size: 1.7rem;
-        }
-        .desc-article .info h4{
-          font-size: 1.2rem;
-          
-        }
+     
+      
         .desc-article .info .underline{
-         width: 40%;
+         width: 30%;
           
         }
         .our-philosophy{
           min-height: 110vh;
-     
         }
-        .our-philosophy .info h3{
-          font-size: 1.1rem;
-     
+        .our-philosophy .containers{
+          padding-left: 2rem;
+          padding-right: 2rem;
         }
-        .our-philosophy .info .underline{
-          width: 40%;
-     
-        }
-        .our-philosophy .info p{
-          font-size: 0.9rem;
-     
-        }
-        .our-philosophy .info {
-          padding-left: 10px;
-          padding-right: 10px;
-     
-        }
+        
+      
         section.contact{
           height: 75vh;
+          padding-right:15px ;
+          padding-left: 15px;
          }
         section.contact .contact-info{
-          padding-left: 5px;
-          padding-right: 5px;
+          padding-left:15px;
+          padding-right: 15px;
       
         }
 
         section.contact .contact-info h3{
-          font-size: 0.8rem;
+          font-size: 1rem;
+          line-height: 23.33px;
       
         }
         section.contact .contact-info h4{
-          font-size: 0.8rem;
+          font-size: 1rem;
       
         }
+        section.contact .contact-info button{
+          padding: 5.5px 8px 5.5px 8px  ;
+  }
+  section.contact .contact-info button a{
+   display: block;
+}
         section.bg-image{
           width: 100%;
-          height: 25vh;
+          height: 47vh;
         }
         .copy-right {
           justify-content: center;
@@ -2256,4 +2569,21 @@ margin-bottom: 0.8rem;
       .patterns-second .img-div.pediatric-img{
         height: 150px;
       }
+      .patterns.adolescent-sec .img-div{
+        height: 150px;
+      }
+      .patterns-second .img-div.adolescent-img{
+        height: 150px;
+      }
+      .patterns .img-div.gastro-img{
+        height: 150px;
+      }
+      .patterns-second .img-div.gastro-img{
+        height: 150px;
+      }
+}
+@media (max-width:370px){
+  .our-philosophy{
+    min-height:130vh;
+  }
 }
