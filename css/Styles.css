@@ -274,6 +274,7 @@ section.slider .slide-img3{
   font-weight: 300;
   font-size: 38.4px;
   letter-spacing: 3px;
+  line-height: 30.4px;
   color: #0D0D0D;
 }
 .desc-article .info h4{
@@ -282,6 +283,7 @@ section.slider .slide-img3{
   font-size: 22.4px;
   letter-spacing: 2px;
   font-family: 'Lato',sans-serif;
+  line-height: 31.44px;
   
 }
 .desc-article .info .underline{
@@ -314,10 +316,11 @@ section.slider .slide-img3{
       background-repeat: no-repeat;
       background-size: cover;
       width: 100%;
-      height: 110vh;
+      height: 90vh;
       display: flex;
       align-items: center;
       background-attachment: fixed;
+      background-position: center center;
     }
     .our-philosophy  .containers{
       max-width: 71%;
@@ -681,7 +684,7 @@ section.slider .slide-img3{
   .our-services .container .title  h2{
     font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 38.4px;
+  font-size: 30.4px;
   letter-spacing: 3px;
   margin-bottom: 1.8rem;  
   line-height: 49.62px;
@@ -703,7 +706,7 @@ section.slider .slide-img3{
 .our-services .container .text{
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 17.6px;
+  font-size: 19.2px;
   line-height: 33.23px;
 }
 .our-services .container .text p:first-child{
@@ -816,11 +819,8 @@ background-size: cover;
 background-position: center center;
 background-repeat: no-repeat;
 }
-section.bg-image-service{
-  width: 100%;
-  height: 55vh;
-}
-section.bg-image-service .img-div{
+
+section.bg-image .img-div.service-img{
  background-image: url('../images/shutterstock_1177700293-2000Wx1064H.jpg');
  background-repeat: no-repeat;
  width: 100%;
@@ -829,109 +829,19 @@ section.bg-image-service .img-div{
  background-attachment: fixed;
  background-position: center  center;
 }
-.EatingDisorder-header{
-  max-width: 100%;
-   
-  }
-  .EatingDisorder-header .img-container{
-    background-image: url('../images/shutterstock_1269533212-2000Wx1064H.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    background-position: center center;
-    background-color: silver;
-    position: relative;
-    background-attachment: fixed;
-  
-  }
-  .EatingDisorder-header .img-container .img-overlay{
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100vh;
-      background-color: rgba(0, 0, 0, 0.4);
-  }
 
-  .EatingDisorder-header .img-container .img-overlay .title{
-    background-color: white;
-    padding: 8px 20px;
-    color:#B58F61 ;
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 75%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
-    animation: fadeout 0.8s linear ;
-    -webkit-animation: fadeout 0.8s linear ;
-    animation-fill-mode: both;
-    animation-delay: 0.9s;
-    transform-origin: right bottom;
+.service-header.EatingDisorder-header .img-container{
+  background-image: url('../images/shutterstock_1269533212-2000Wx1064H.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100%;
+ height: 100vh;
+ background-position: center center;
+ background-color: silver;
+ position: relative;
+ background-attachment: fixed;
 }
-
-.EatingDisorder-header .img-container .img-overlay .title h2{
-    font-weight: 100;
-    font-family: 'Lato',sans-serif;
-    font-size: 28.8px;
-    letter-spacing: 3px;  
-   margin-bottom: 0px;
-   line-height:40.32px; 
-}
-
-  .EatingDisorder-treament .containers{
-    padding: 5.5rem 12rem;
-    }
-  .EatingDisorder-treament .title {
-    margin-bottom: 2rem;
-  }
-  .EatingDisorder-treament .title h3{
-    text-transform: uppercase;
-    font-family: 'Lato',sans-serif;
-    font-weight: 300;
-    font-size: 38.4px;
-    letter-spacing: 3px;
-    color: #0D0D0D;
-  }
-  .EatingDisorder-treament .info h4{
-    color: #B58F61;
-    font-weight: 400;
-    font-size: 22.4px;
-    letter-spacing: 2px;
-    font-family: 'Lato',sans-serif;
-    
-  }
-  .EatingDisorder-treament .info .underline{
-   width: 240px;
-   height: 1px;
-   background-color: #B58F61;
-   margin-top: 1.1rem;
-   margin-bottom: 1.5rem;
-  }
-  .EatingDisorder-treament .info p{
-    font-size: 17.6px;
-    font-family: 'Lato',sans-serif;
-    font-weight: 300;
-    line-height: 33.44px;
-      
-    }
-    .EatingDisorder-treament .info p:nth-child(3){
-     padding-bottom: 1rem;
-       
-     }
-     .EatingDisorder-treament .info p a{
-        color: #B58F61;
-        text-decoration: underline;   
-       }
-       section.bg-image-EatingDisorder{
-        width: 100%;
-        height: 55vh;
-      }
-      section.bg-image-EatingDisorder .img-div{
+      section.bg-image .img-div.EatingDisorder-img{
        background-image: url('../images/shutterstock_1519552328-2000Wx1064H.jpg');
        background-repeat: no-repeat;
        width: 100%;
@@ -992,14 +902,14 @@ section.bg-image-service .img-div{
    .EatingDisorder-symptom .text p{
     font-family: 'Lato',sans-serif;
     font-weight: 300;
-    font-size: 17.6px;
-    line-height: 33.44px;
+    font-size: 19.2px;
+    line-height: 31.68px;
  }
  .EatingDisorder-symptom .list li {
   font-family: 'Lato',sans-serif;
   font-weight: 300;
-  font-size: 17.6px;
-  line-height: 33.44px;
+  font-size: 19.2px;
+  line-height: 31.68px;
 }
 .EatingDisorder-symptom .list  {
  padding-top: 0.5rem;
@@ -1035,32 +945,6 @@ section.bg-image-service .img-div{
   font-weight: 300;
   line-height: 40.8px;
   color: #b58f61;
-}
-.peace-food{
-  padding: 5.5rem 12rem;
-}
-.peace-food .title{
-  margin-bottom: 1.4rem;
-}
-.peace-food .title h3{
- font-family: 'Lato',sans-serif;
- font-weight: 400;
- font-size: 22.4px;
- color:#b58f61;
- line-height: 31.36px;
- letter-spacing: 2px;
- margin-bottom: 1rem;
-}
-.peace-food .title .underline{
-    width: 220px;
-    height: 1px;
-    background-color: #b58f61;
- }
-.peace-food .text p{
-font-family: 'Lato',sans-serif;
-font-weight: 300;
-font-size: 17.6px;
-line-height: 33.44px;
 }
 .service-header.weight-sec .img-container{
   background-image: url('../images/shutterstock_596124212-2000Wx1064H.jpg');
@@ -1213,7 +1097,7 @@ section.bg-image.gastro-sec .img-div{
   background-attachment: fixed;
   background-position: center center;
 }
-.EatingDisorder-header .img-container.nutritionists-img{
+.service-header .img-container.nutritionists-img{
   background-image: url('../images/shutterstock_594101840-2000Wx1064H.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -1225,7 +1109,7 @@ section.bg-image.gastro-sec .img-div{
   background-attachment: fixed;
 }
 .nutrition-sec{
- padding: 5.5rem 12rem;
+ padding: 5.5rem 12rem 2rem 12rem;
 }
 .nutrition-sec .containers .img{
    width: 200;
@@ -1275,8 +1159,119 @@ section.bg-image.gastro-sec .img-div{
   line-height:33.44px;
  
 }
+.our-team{
+  padding: 0rem 12rem 5rem 12rem;
+}
+.our-team .containers {
+  width: 100%;
+}
+.our-team .containers .img{
+  width: 200;
+  height: auto;
+  float: right;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  shape-outside:url(../images/nutritionist-rebecca-appleman-wpcf_200x280.jpg);
+  shape-margin: 15px;
+}
+.our-team  .title h3{
+  font-family: 'Lato',sans-serif;
+  font-size: 38.4px;
+  font-weight:300;
+  line-height:49.92px;
+  letter-spacing:3px ;
+  margin-bottom: 2rem;
+ }
+ .our-team .containers .collpase-btn{
+   border-top:1px solid  #B58f61;
+   cursor: pointer;
+   width: 98%;
+   transition:all 0.3s linear;
+   -webkit-transition:all 0.3s linear;
+   -moz-transition:all 0.3s linear;
+   -ms-transition:all 0.3s linear;
+   -o-transition:all 0.3s linear;
+   padding: 15px 0px 15px 0px;
+}
 
-
+ .our-team .containers .collpase-btn .heading{
+  font-family: 'Lato',sans-serif;
+  font-size: 19.2px;
+  font-weight:400;
+  letter-spacing:2px ;
+  color: #B58f61;
+  transition:all 0.3s linear;
+  -webkit-transition:all 0.3s linear;
+  -moz-transition:all 0.3s linear;
+  -ms-transition:all 0.3s linear;
+  -o-transition:all 0.3s linear;
+  margin-bottom: 0;
+}
+.our-team .containers .collpase-btn:hover{
+  background-color:#B58f61 ;
+  width: 100%;
+  padding: 15px 0px 15px 20px;
+  }
+  .our-team .containers .collpase-btn:hover .heading{
+   color: white;
+  
+    }
+    .our-team .containers .collapse-menu{
+      padding-top: 20px;
+      padding-bottom: 30px;
+      padding-right: 20px;
+      transition: all 0.3s linear;
+      -webkit-transition: all 0.3s linear;
+      -moz-transition: all 0.3s linear;
+      -ms-transition: all 0.3s linear;
+      -o-transition: all 0.3s linear;
+      display: block !important;
+      height: 0 !important;
+      overflow: hidden !important;
+      zoom: 1 !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+}
+    .our-team .containers .collapse-menu.show-collapse-menu{
+      display: block !important;
+      height: auto !important;
+      overflow: visible !important;
+      zoom: 0 !important;
+      padding-top:20px  !important;
+      padding-bottom: 30px !important;
+     }
+    .our-team .containers .collapse-menu h4{
+      font-family: 'Lato',sans-serif;
+      font-size: 22.4px;
+      font-weight:400;
+      line-height:29.12px;
+      padding-bottom: 10px;  
+    }
+    .our-team .containers .collapse-menu p{
+      font-family: 'Lato',sans-serif;
+      font-size: 17.6px;
+      font-weight:300;
+      line-height:33.44px; 
+    }
+    .our-team .containers .collapse-menu .last-text{
+      font-family: 'Lato',sans-serif;
+      font-size: 17.6px;
+      font-weight:300;
+      line-height:33.44px;
+    }
+    .our-team .containers .collapse-menu .last-text b{
+      font-weight:700;
+    }
+    section.bg-image .img-div.nutrition-sec{
+      background-image: url('../images/shutterstock_1125797903-2000Wx1064H.jpg');
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center center;
+    }
 @media (min-width:1050px) and (max-width:1198px){
     .nav-bar .navbar-ul .nav-item .nav-link{
         font-size: 13px;
@@ -1287,12 +1282,15 @@ section.bg-image.gastro-sec .img-div{
     }
     .desc-article .containers .title h3{
       font-size: 30.4px;
+      line-height: 39.52px;
     }
     .desc-article .containers .info h4{
       font-size: 22.4px;
+      line-height: 31.36px;
     }
     .desc-article .containers .info p{
       font-size: 19.2px;
+      line-height: 31.68px;
     }
     .our-philosophy{
       height: 90vh;
@@ -1301,9 +1299,10 @@ section.bg-image.gastro-sec .img-div{
       max-width: 74%;
       padding: 3rem 4rem;
     }
-     .EatingDisorder-treament .containers{
-      padding: 3.4rem 5.5rem;
-    }
+    .service-header .img-container .img-overlay .title{
+      padding: 8px 20px;
+}
+   
      .patterns .text{
       padding: 40px 40px;
       top: 19%;
@@ -1311,6 +1310,7 @@ section.bg-image.gastro-sec .img-div{
     }
     .patterns .text h3{
       font-size: 24px;
+      line-height: 36px;
     }
     .EatingDisorder-symptom{
       padding: 3.4rem 5.5rem;
@@ -1323,14 +1323,47 @@ section.bg-image.gastro-sec .img-div{
     }
     .patterns-second .text h3{
       font-size: 24px;
+      line-height: 36px;
    }
-   .peace-food{
-    padding: 3.4rem 5.5rem;
-  }
   .nutrition-sec{
     padding: 3.4rem 5.5rem;
   }
-
+  .nutrition-sec .containers .title h3{
+    font-size: 30.4px;
+    line-height:39.52px;
+   }
+   .nutrition-sec .containers .info h5{
+    line-height:22.88px;
+  }
+  .nutrition-sec .containers .info p{
+    font-size: 19.2px;
+    line-height:33.68px;
+  }
+  .our-team{
+    padding: 0rem 5.5rem 3.4rem 5.5rem;
+  }
+  .our-team  .title h3{
+    font-size: 30.4px;
+    line-height:39.52px;
+   }
+   .our-team .containers .collapse-menu h4{
+    font-size: 19.2px;
+    line-height:26.88px;
+  }
+  .our-team .containers .collapse-menu p{
+    font-size: 19.2px;
+    line-height:31.68px;
+  }
+  .our-team .containers .collapse-menu .last-text p{
+    font-size: 19.2px;
+    line-height:31.68px;
+  }
+  .our-services .features-sec .left-side:nth-child(odd){
+    padding-left: 6.2rem;
+  }
+  .our-services .features-sec .left-side:nth-child(even){
+    padding-right: 6.2rem;
+  }
 }
 @media (max-width:1060px){
     .nav-bar{
@@ -1356,7 +1389,7 @@ section.bg-image.gastro-sec .img-div{
           background-color: #B58F61;
           z-index: 2;
           display: none;    
-}
+        }
         .nav-bar .navbar-ul .nav-item{
             border-bottom: 1px solid white;
             width: 100%;  
@@ -1446,14 +1479,18 @@ section.bg-image.gastro-sec .img-div{
 .desc-article .containers{
   padding: 3.4rem 5.5rem;
 }
+
 .desc-article .containers .title h3{
   font-size: 30.4px;
+  line-height: 39.52px;
 }
 .desc-article .containers .info h4{
   font-size: 22.4px;
+  line-height: 31.36px;
 }
 .desc-article .containers .info p{
   font-size: 19.2px;
+  line-height: 31.68px;
 }
 .our-philosophy{
   height: 90vh;
@@ -1467,22 +1504,28 @@ section.bg-image.gastro-sec .img-div{
 margin-left: auto;
 margin-right: auto;
 }
+.service-header .img-container .img-overlay .title {
+  padding: 8px 20px;
+}
+.service-header .img-container .img-overlay .title h2{
+  font-size: 20.8px;
+}
           .our-services .container{
             margin-top: 3.4rem;
-            padding-left:4rem;
-            padding-right: 4rem;
+            padding-left:3rem;
+            padding-right: 3rem;
           }
           .our-services .container .title  h2{
           font-size: 30.4px;
         
         }
         .our-services .features-sec .left-side:nth-child(odd){
-          padding-left: 6.5rem;
-         
+          padding-left: 6.2rem;
         }
-        .EatingDisorder-treament .containers{
-          padding: 3.4rem 5rem;
+        .our-services .features-sec .left-side:nth-child(even){
+          padding-right: 6.2rem;
         }
+       
         .patterns{
           display: flex;
           justify-content: center;
@@ -1515,9 +1558,7 @@ margin-right: auto;
         .EatingDisorder-symptom .text{
           margin-bottom: 0.7rem;
          } 
-         .EatingDisorder-symptom .text h3{
-           font-size: 22.4px;
-         } 
+       
          .patterns-second{
           display: flex;
           justify-content: center;
@@ -1544,15 +1585,6 @@ margin-right: auto;
         font-size: 25.6px;
         line-height: 38.4px;
         } 
-        .peace-food{
-          padding: 3.4rem 5rem;
-        }
-        .peace-food .text{
-          margin-bottom: 0.7rem;
-         } 
-         .peace-food .text h3{
-           font-size: 22.4px;
-         }  
          .patterns.weight-sec .img-div{
           display: block;
           max-width: 100%;
@@ -1604,6 +1636,37 @@ margin-right: auto;
         .nutrition-sec{
           padding: 3.4rem 5rem;
         }
+        .nutrition-sec .containers .title h3{
+          font-size: 30.4px;
+          line-height:39.52px;
+         }
+         .nutrition-sec .containers .info h5{
+          line-height:22.88px;
+        }
+        .nutrition-sec .containers .info p{
+          font-size: 19.2px;
+          line-height:33.68px;
+        }
+        .our-team{
+          padding: 0rem 5rem 3.4rem 5rem;
+        }
+        .our-team  .title h3{
+          font-size: 30.4px;
+          line-height:39.52px;
+         }
+         .our-team .containers .collapse-menu h4{
+          font-size: 19.2px;
+          line-height:26.88px;
+        }
+        .our-team .containers .collapse-menu p{
+          font-size: 19.2px;
+          line-height:31.68px;
+        }
+        .our-team .containers .collapse-menu .last-text p{
+          font-size: 19.2px;
+          line-height:31.68px;
+        }
+
 }
 
 @media (max-width:992px){
@@ -1630,6 +1693,12 @@ margin-right: auto;
           padding-left: 5rem;
           padding-right: 5rem;
       }
+      section.bg-image{
+      
+        width: 100%;
+        height: 67vh;
+     
+      }
         .feature{
           margin-top: 3rem;
           margin-bottom: 3rem;
@@ -1650,14 +1719,6 @@ margin-right: auto;
           padding-right: 4rem; 
           min-width: 100%;
         }
-        .our-services .container .title  h2{
-        font-size: 30.4px;
-      
-      }
-      .service-header .img-container .img-overlay .title h2{
-        font-size: 25.8px; 
-      
-  }
       .our-services .features-sec .left-side:nth-child(odd){
         padding-left: 4rem;
         padding-right: 4rem;
@@ -1696,45 +1757,12 @@ margin-right: auto;
         margin-left: auto;
         margin-right: auto;
       }
-      .EatingDisorder-header .img-container .img-overlay .title h2{
-        font-size: 25.8px;    
-    }
-    .EatingDisorder-treament .containers{
-      padding: 3.4rem 5rem;
-      }
-      .EatingDisorder-treament .title h3{
-        font-size: 30.4px;
-      }
-      .EatingDisorder-treament .info p{
-        font-size: 19.2px;   
-        }
-        .EatingDisorder-treament .info p:nth-child(3){
-          padding-bottom: 0.7rem;   
-          }
           .EatingDisorder-symptom{
             padding: 3.4rem 5rem;
           }
           .EatingDisorder-symptom .text{
             margin-bottom: 0.7rem;
            } 
-           .EatingDisorder-symptom .text h3{
-             font-size: 22.4px;
-           } 
-
-           .peace-food{
-            padding: 3.4rem 5rem;
-          }
-          .peace-food .text{
-            margin-bottom: 0.7rem;
-           } 
-           .peace-food .text h3{
-             font-size: 22.4px;
-           } 
-           .nutrition-sec .containers .title h3{
-            font-size: 30.4px;
-            line-height:39.92px;
-           }
-
 }
 @media (max-width:772px){
   .slider .img-container img{
@@ -1802,7 +1830,7 @@ margin-right: auto;
   section.bg-image{
       
     width: 100%;
-    height: 50vh;
+    height: 38vh;
  
   }
   footer address  .address-info h4{
@@ -1826,10 +1854,14 @@ margin-right: auto;
     height: 260px;
   
   }
+  .service-header .img-container .img-overlay .title{
+   padding: 5px 15px;
+    
+}
   .service-header .img-container .img-overlay .title h2{
-    font-size: 1.3rem;
-    letter-spacing: 1px; 
-    margin-bottom: 0; 
+    font-size: 12.8px; 
+    line-height: 17.92px;
+    
 }
 .our-services{
   margin-bottom: 2.7rem; 
@@ -1847,13 +1879,9 @@ margin-bottom: 0.8rem;
 }
 .our-services .container .title  h3{
   font-size: 18.4px;
-
-  
   }
   .our-services .container .text  p{
     font-size: 17.6px;
-  
-    
     }
     .our-services .features-sec .left-side:nth-child(odd){
       padding-left: 4rem;
@@ -1897,29 +1925,6 @@ margin-bottom: 0.8rem;
       margin-left: auto;
       margin-right: auto;
     }
-    .EatingDisorder-header .img-container .img-overlay .title h2{
-      font-size: 1.3rem;
-      letter-spacing: 1px; 
-      margin-bottom: 0; 
-  }
-  .EatingDisorder-treament .containers{
-    padding: 2rem 3rem;
-    }
-    .EatingDisorder-treament .title {
-      margin-bottom: 1.3rem;
-    }
-    .EatingDisorder-treament .title h3{
-      font-size: 24px;
-    }
-    .EatingDisorder-treament .info h4{
-      font-size: 17.4px;   
-    }
-    .EatingDisorder-treament .info .underline{
-      width: 30%;   
-    }
-    .EatingDisorder-treament .info p{
-      font-size: 16.2px;   
-      }
       .patterns{
         padding-bottom: 100px;
       }
@@ -1966,22 +1971,6 @@ margin-bottom: 0.8rem;
       font-size: 17.6px;
       line-height: 22.88px;
       } 
-      .peace-food{
-        padding: 2rem 3rem;
-      }
-      .peace-food .text{
-        margin-bottom: 0.5rem;
-       } 
-       .peace-food .title h3{
-         font-size: 17.6px;
-         line-height: 24.64px;
-       } 
-       .peace-food .title .underline{
-        width: 30%;
-      } 
-      .peace-food .text p{
-       font-size: 16.2px;
-      }  
       .patterns.weight-sec .img-div{
         height: 200px;
       } 
@@ -2007,22 +1996,83 @@ margin-bottom: 0.8rem;
         height: 200px;
       }
       .nutrition-sec{
-        padding: 2rem 3rem;
+        padding: 1.5rem 2.5rem 1rem;
       }
+      .nutrition-sec .containers .img{
+        width: 35%;
+       }
       .nutrition-sec .containers .title h3{
-        font-size: 22px;
-        font-weight:300;
+        font-size: 24px;
         line-height:31.2px;
        }
        .nutrition-sec .containers .info h4{
         font-size: 17.6px;
         line-height:24.64px;
        }
+       .nutrition-sec .containers .info h5{
+        font-size: 17.6px;
+        line-height:22.88px;
+       }
+       .nutrition-sec .containers .info .underline{
+        width: 30%;
+       }
        .nutrition-sec .containers .info p{
         font-size: 16.6px;
         line-height:27.44px;
+      } 
+      .our-team{
+        padding: 0rem 2.5rem 1rem;
       }
-       
+      .our-team .containers .img{
+         width: 35%;
+      }
+      .our-team  .title h3{
+        font-size: 24px;
+        line-height:31.2px;
+       }
+       .our-team .containers .collpase-btn .heading{
+        font-size: 16px;
+        line-height: 22.44px;
+        transition:none;
+        -webkit-transition:none;
+        -moz-transition:none;
+        -ms-transition:none;
+        -o-transition:none;
+      }
+      .our-team .containers .collpase-btn{
+        width: 100%;
+        transition:none;
+        -webkit-transition:none;
+        -moz-transition:none;
+        -ms-transition:none;
+        -o-transition:none;
+        padding: 10px 0px 10px 0px;
+      }
+      .our-team .containers .collpase-btn:hover{
+        background-color:white ;
+        padding: 10px 0px 10px 0px;
+        }
+        .our-team .containers .collpase-btn:hover .heading{
+         color: #b58f61;
+          }
+          .our-team .containers .collapse-menu{
+            padding-top: 20px;
+            padding-bottom: 30px; 
+            padding-right: 0px;
+          }
+          .our-team .containers .collapse-menu h4{
+            font-size: 17.6px;
+            line-height:24.64px; 
+          }
+          .our-team .containers .collapse-menu p{
+            font-size: 16.6px;
+            line-height:27.44px;
+           
+          }
+          .our-team .containers .collapse-menu .last-text{
+            font-size: 16.6px;
+            line-height:27.44px;
+          }
 }
 
 
@@ -2060,23 +2110,30 @@ margin-bottom: 0.8rem;
         .desc-article .containers .title{
           margin-bottom: 1.7rem;
         }
+        .desc-article .containers .title h3{ 
+          font-size: 24px;
+          line-height: 31.2px;
+        }
         .desc-article .info .underline{
           width: 30%;   
           margin-bottom: 0.7rem;
         }
         .desc-article .containers .info h4{
           font-size: 17.4px;
-          line-height: 25px;
+          line-height: 24.64px;
         }
         .desc-article .containers .info p{
           font-size: 16px;
-          line-height: 25px;
+          line-height: 24.8px;
         }
         .desc-article .containers .info p:nth-child(3){
           margin-bottom: 0.2rem;
         }
         .desc-article .containers .info p:nth-child(4){
           margin-bottom: 1.6rem;
+        }
+        .our-services .container{
+          margin-bottom: 4rem;
         }
         .our-philosophy{
           height: 120vh;
@@ -2192,25 +2249,22 @@ section.contact .contact-info button:hover a{
               padding-left: 20px;
               padding-right: 20px;
             }
-            .service-header .img-container .img-overlay .title h2{
-              font-size: 1rem;
-              letter-spacing: 0px; 
-            /* padding: 5px 20px; */
-          }
+
           .our-services .container{
             padding-left:2rem;
             padding-right: 2rem; 
           }
           .our-services .container .title  h2{
-          font-size: 21.4px;
           margin-bottom: 0.8rem;
-          
+          line-height: 31.8px;
           }
           .our-services .container .title  h3{
-            font-size: 16.4px;
+            font-size: 17.6px;
+            line-height: 24.64px;
             }
             .our-services .container .text  p{
-              font-size: 15.2px;
+              font-size: 16px;
+              line-height: 24.6px;
               }
               .our-services .container .title  .underline{
                   width: 30%;
@@ -2260,58 +2314,39 @@ section.contact .contact-info button:hover a{
                 }
 
 .our-services .features-sec .left-side:nth-child(odd) .title h3{
- font-size: 16.4px;
+ font-size: 17.6px;
+ line-height: 24.64px;
 }
 
 .our-services .features-sec .left-side:nth-child(odd) .title  .underline{
-  width:40%;
+  width:30%;
 }
 .our-services .features-sec .left-side:nth-child(odd) .text {
-  font-size: 15.2px;
+  font-size: 16px;
+  line-height: 24.8px;
+  font-weight: 300;
 }
 .our-services .features-sec .left-side:nth-child(even) .title h3{
 
- font-size: 16.4px;
+  font-size: 17.6px;
+  line-height: 24.64px;
  
 }
 .our-services .features-sec .left-side:nth-child(even) .title  .underline{
-  width:40% ;
+  width:30% ;
 
 }
 .our-services .features-sec .left-side:nth-child(even) .text {
-  font-size: 15.2px;
+  font-size: 16px;
+  line-height: 24.8px;
+  font-weight: 300;
 }
-.service-header .img-container .img-overlay .title{
- padding-left: 4px;
- padding-right: 4px;
 
-}
-.EatingDisorder-header .img-container .img-overlay .title h2{
-  font-size: 0.9rem;
-  line-height: 12px;
-/* padding: 5px 20px; */
-}
-.EatingDisorder-treament .containers{
-  padding:2rem 2.7rem 2rem 2.7rem
-}
-.EatingDisorder-treament .title h3{
-  font-size: 24px;
-}
-.EatingDisorder-treament .info h4{
-  font-size: 17.4px;   
-}
-.EatingDisorder-treament .info p{
-  font-size: 16px;   
-}
-.EatingDisorder-treament .info p:nth-child(3){
-  padding-bottom: 0.2rem;
-    
-  }
   .EatingDisorder-symptom{
     padding:2rem 2.7rem 2rem 2.7rem;
   }
    .EatingDisorder-symptom .title h3{
-     font-size: 24px;
+     font-size: 17.6px;
      line-height: 24.64px;
    } 
    .EatingDisorder-symptom .title .underline{
@@ -2319,28 +2354,32 @@ section.contact .contact-info button:hover a{
   } 
   .EatingDisorder-symptom .text p{
     font-size: 16px; 
-   line-height: 26px;
+   line-height: 24.8px;
   
   } 
   .EatingDisorder-symptom .text .list li{
     font-size: 16px; 
-    line-height: 26px;
+    line-height: 24.8px;
    } 
-   .peace-food{
-    padding:2rem 2.7rem 2rem 2.7rem;
+   .nutrition-sec .containers .info p{
+    font-size: 16px;
+    line-height:24.8px;
+  } 
+  .our-team .containers .collapse-menu p{
+    font-size: 16px;
+    line-height:24.8px;
+   
   }
-   .peace-food .title h3{
-     font-size: 24px;
-     line-height: 24.64px;
-   } 
-   .peace-food .title .underline{
-    width: 30%;
-  } 
-  .peace-food .text p{
-   font-size: 16px;
-   line-height: 28px;
-  
-  } 
+  .our-team .containers .collapse-menu .last-text{
+    font-size: 16px;
+    line-height:24.8px;
+  }
+  .our-team .containers .collpase-btn .heading{
+    font-size: 0.9rem;
+    line-height:22.8px;
+    text-transform: lowercase;
+    text-transform: uppercase;
+  }
 }
 @media (max-width:420px){
     .nav-bar .navbar-brand{
@@ -2374,11 +2413,8 @@ section.contact .contact-info button:hover a{
            padding-left: 1.4rem;
           padding-right: 1.4rem;
         }
-     
-      
         .desc-article .info .underline{
          width: 30%;
-          
         }
         .our-philosophy{
           min-height: 110vh;
@@ -2387,8 +2423,6 @@ section.contact .contact-info button:hover a{
           padding-left: 2rem;
           padding-right: 2rem;
         }
-        
-      
         section.contact{
           height: 75vh;
           padding-right:15px ;
@@ -2397,13 +2431,10 @@ section.contact .contact-info button:hover a{
         section.contact .contact-info{
           padding-left:15px;
           padding-right: 15px;
-      
         }
-
         section.contact .contact-info h3{
           font-size: 1rem;
           line-height: 23.33px;
-      
         }
         section.contact .contact-info h4{
           font-size: 1rem;
@@ -2417,7 +2448,7 @@ section.contact .contact-info button:hover a{
 }
         section.bg-image{
           width: 100%;
-          height: 47vh;
+          height: 38vh;
         }
         .copy-right {
           justify-content: center;
@@ -2434,24 +2465,6 @@ section.contact .contact-info button:hover a{
         padding-left:1rem;
         padding-right: 1rem; 
       }
-      .our-services .container .title  h2{
-      font-size: 20.4px;
-      margin-bottom: 20px;
-      line-height: 32px;
-      
-      }
-      .our-services .container .title  h3{
-        font-size: 15.4px;
-        letter-spacing: 1px;
-      
-        
-        }
-        .our-services .container .text  p{
-          font-size: 14.4px;
-        line-height: 25px;
-        text-align: left;
-          
-          }
           .our-services .container{
             padding-left:1.8rem;
             padding-right: 2rem; 
@@ -2459,21 +2472,11 @@ section.contact .contact-info button:hover a{
           .our-services .features-sec .left-side:nth-child(odd) .title  .underline{
             width:30%;
           } 
-          .our-services .features-sec .left-side:nth-child(odd) .text {
-            font-size: 14.4px;
-          }
-          .our-services .features-sec .left-side:nth-child(even) .title h3{
-
-            font-size: 15.4px;
-            
-           }
+        
            .our-services .features-sec .left-side:nth-child(even) .title  .underline{
             width:30% ;
           
-          }
-          .our-services .features-sec .left-side:nth-child(even) .text {
-            font-size: 14.4px;
-          }
+           }
           .our-services .features-sec .right-side:nth-child(even) .feature-div-img {
              height: 150px;
            
@@ -2493,30 +2496,6 @@ section.contact .contact-info button:hover a{
       .our-services .features-sec .left-side:nth-child(even){
         padding-right: 2.2rem;
       }
-      section.bg-image-service{
-        width: 100%;
-        height: 25vh;
-      }
-      .EatingDisorder-header .img-container .img-overlay .title h2{
-        font-size: 0.8rem;
-      padding-top: 0px;
-      padding-bottom: 0px;
-      letter-spacing: 2px;
-      line-height: 14px;
-    }
-      .EatingDisorder-treament .info h4{
-        font-size: 14.6px;
-        line-height: 22px;
-        
-      }
-      .EatingDisorder-treament .info p:nth-child(3){
-        padding-bottom: 0.1rem;
-          
-        }
-        section.bg-image-EatingDisorder{
-        width: 100%;
-        height: 25vh;
-      }
       .patterns{
         padding-left: 20px;
         padding-right: 20px;
@@ -2530,13 +2509,10 @@ section.contact .contact-info button:hover a{
         padding: 17px;
       }
       .patterns .text h3{
-      font-size: 15.6px;
+      font-size: 17.6px;
       line-height: 22.88px;
       }   
-      .EatingDisorder-symptom .title h3{
-        font-size: 14.6px;
-        line-height: 24.64px;
-      }  
+     
       .patterns-second{
         padding-left: 20px;
         padding-right: 20px;
@@ -2550,13 +2526,9 @@ section.contact .contact-info button:hover a{
         padding: 17px;
       }
       .patterns-second .text h3{
-      font-size: 15.6px;
+        font-size: 17.6px;
       line-height: 22.88px;
       }   
-      .peace-food .title h3{
-        font-size: 14.6px;
-        line-height: 24.64px;
-      }  
       .patterns.weight-sec .img-div{
         height: 150px;
       }

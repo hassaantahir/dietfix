@@ -3,6 +3,8 @@ let menu = document.querySelector('.dropdownmenu-small-screen');
 let Main_menu = document.querySelector('.navbar-ul');
 let close_menu = document.querySelector('.dropdownmenu-small-screen .backBtn');
 let checkBox = document.querySelector('.checkbtn');
+let collpase_btn = document.querySelectorAll('.collpase-btn');
+
 
 // menu button
 checkBox.addEventListener('click',function(){
@@ -47,15 +49,11 @@ if(broswerWidth > 1050 && broswerWidth < 1180 ){
  
 };
 
-// window.onresize = function() {        
-//    let broswerWidth = window.innerWidth; 
-   
-// if(broswerWidth > 1061){
-//    drowdown_item.addEventListener('click',function(){
-//      //alert('click');
-//       // menu.style.display= 'none';
-//       // Main_menu.removeAttribute('id','show-navbar-ul');
-//    });
-//  }
- 
-// };
+
+
+collpase_btn.forEach(function(btns){
+     btns.addEventListener('click',function(e){
+     let   target = e.currentTarget.parentElement.lastElementChild;
+     target.classList.toggle("show-collapse-menu")
+     });
+});
