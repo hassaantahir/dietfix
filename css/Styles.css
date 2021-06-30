@@ -476,7 +476,7 @@ section.slider .slide-img3{
         -moz-transition: all 0.3s linear;
         -ms-transition: all 0.3s linear;
         -o-transition: all 0.3s linear;
-}
+      }
 
 
      section.contact .contact-info button a{
@@ -1272,6 +1272,341 @@ section.bg-image.gastro-sec .img-div{
       background-attachment: fixed;
       background-position: center center;
     }
+    .service-header .img-container.ysk-img{
+      background-image: url('../images/shutterstock_628142189-2000Wx1064H.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+      background-position: center center;
+      background-color: silver;
+      position: relative;
+      background-attachment: fixed;
+    }
+    section.ysk-section{
+      background-color: rgb(229, 233, 240);
+      padding: 30px 67.437px ;
+    }
+    section.ysk-section .title{
+       font-family: 'Lato',sans-serif;
+       font-weight:300 ;
+       font-size: 38.4px;
+       line-height:49.92px ;
+       margin-bottom: 3rem;
+    }
+    section.ysk-section .title h2{
+      font-family: 'Lato',sans-serif;
+      font-weight:300;
+      font-size: 38.4px;
+      line-height:49.92px;
+   }
+   section.ysk-section  .containers{
+   display: flex;
+   align-items: stretch;
+   flex-wrap: wrap;
+ }
+ section.ysk-section  .containers .card{
+   margin-right: 20px;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 25%;
+   margin-bottom:20px;
+}
+section.ysk-section  .containers .card:nth-child(3),section.ysk-section  .containers .card:last-child{
+  margin-right: 0px;
+}
+section.ysk-section  .containers .card:nth-child(4) ,section.ysk-section  .containers .card:last-child {
+  flex-basis: 32.22%;
+   flex-grow: 0;
+   flex-shrink: 0;
+
+}
+section.ysk-section  .containers .card .card-body .card-title{
+  font-family: 'Lato',sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  color:#b58f61;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+section.ysk-section  .containers .card .card-body .underline{
+ height: 1px;
+ width: 70%;
+ background-color: #B58f61;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}
+section.ysk-section  .containers .card .card-body .card-text{
+  font-family: 'Lato',sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 14.3px;
+  letter-spacing: 1px;
+ }
+ section.bg-image .img-div.ysk-img{
+  background-image: url('../images/shutterstock_1562660956-2000Wx1064H.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.service-header.Process-header .img-container{
+  background-image: url('../images/shutterstock_614616038-2000Wx1064H.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position: center center;
+  background-color: silver;
+  position: relative;
+  background-attachment: fixed;
+}
+.desc-article .containers  button.frequent-btn{
+  border: none;
+  outline: none;
+  background: transparent;
+  background-color: #B58F61;
+  padding: 5.5px 17px 5.5px 17px  ;
+  display: block;
+  margin-left: auto;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300 !important;
+  font-size: 17.6px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  margin-top: 1.4rem;
+
+}
+.desc-article .containers  button.frequent-btn a{
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  position: relative;
+  text-transform: uppercase;
+}
+.desc-article .containers  button.frequent-btn a::after{
+  content: '\00bb';
+  opacity: 0;
+  position: absolute;
+  right: 2px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.desc-article .containers  button.frequent-btn:hover {
+  background-color: #9A7142;
+    }
+.desc-article .containers  button.frequent-btn:hover a{
+   padding-right: 28px;
+    }
+.desc-article .containers  button.frequent-btn:hover a::after{
+       opacity: 1;
+      }
+      section.process-image{
+        width: 100%;
+        height:415px;
+        margin-bottom: 3rem;
+      }
+      section.process-image .img-div{
+       background-image: url('../images/shutterstock_261667289-2000Wx1064H.jpg');
+       background-repeat: no-repeat;
+       width: 100%;
+       height: 100%;
+       background-size: cover;
+       background-attachment: fixed;
+       background-position: center center;
+     }
+     .our-team .containers .collapse-menu p a{
+      text-decoration: underline;
+      color: #b58f61;
+      font-weight: 500;
+    }
+    section.bg-image .img-div.nutritional-process-img{
+      background-image: url('../images/shutterstock_1314514886-2000Wx1064H.jpg');
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center center;
+    }
+    .service-header.contact-header .img-container{
+      background-image: url('../images/shutterstock_173037740-2000Wx1064H.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+      background-position: center center;
+      background-color: silver;
+      position: relative;
+      background-attachment: fixed;
+    }
+    .contact-office .containers{
+      padding: 5rem 12rem 5rem 12rem;
+    }
+    .contact-office .containers h2{
+    font-family: 'Lato',sans-serif;
+    font-weight:400 ;
+    font-size: 22.4px;
+    line-height: 31.36px;
+    letter-spacing: 2px;
+    color: #b58f61;
+    } 
+   .contact-office .containers .underline{
+       width: 46%;
+      height: 1px;
+      background-color: #b58f61;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      }
+      .contact-office .containers p{
+        font-family: 'Lato',sans-serif;
+        font-weight:300 ;
+        font-size: 17.6px;
+        line-height: 33.44px;
+       }
+       .contact-office .containers p a{
+        color: #b58f61;
+        font-weight: 500;
+        text-decoration:underline;
+       }
+       .contact-office .containers p strong{
+        font-weight: 700;
+       }
+       .contact-office .containers  .right-div{
+        padding-left:5rem;
+       }
+       .contact-office .containers  .right-div address{
+        font-family: 'Lato',sans-serif;
+        font-weight:300 ;
+        font-size: 17.6px;
+        line-height: 33.44px;
+       }
+       .contact-office .containers  .right-div address strong{
+        font-weight:700 ;
+       }
+       .contact-office .containers  .right-div a{
+        color: #b58f61;
+        font-weight: 500;
+        text-decoration:underline;
+       }
+       .contact-office .containers button{
+        border: none;
+        outline: none;
+        background: transparent;
+        background-color: #B58F61;
+        padding: 5.5px 17px 5.5px 17px  ;
+        display: block;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300 !important;
+        font-size: 17.6px;
+        transition: all 0.3s linear;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        -ms-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+}
+      .contact-office .containers button a{
+       color: white;
+       text-decoration: none;
+       transition: all 0.3s linear;
+       -webkit-transition: all 0.3s linear;
+       -moz-transition: all 0.3s linear;
+       -ms-transition: all 0.3s linear;
+       -o-transition: all 0.3s linear;
+       position: relative;
+    }
+.contact-office .containers button a::after{
+ content: '\00bb';
+ opacity: 0;
+ position: absolute;
+ right: 2px;
+ transition: all 0.3s linear;
+ -webkit-transition: all 0.3s linear;
+ -moz-transition: all 0.3s linear;
+ -ms-transition: all 0.3s linear;
+ -o-transition: all 0.3s linear;
+}
+ 
+.contact-office .containers button:hover {
+       background-color: #9A7142;
+         }
+         .contact-office .containers button:hover a{
+        padding-right: 28px;
+         }
+         .contact-office .containers button:hover a::after{
+            opacity: 1;
+           }
+           section.process-image .img-div.contact-us-img{
+            background-image: url('../images/shutterstock_1125473984-2000Wx1064H.jpg');
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center center;
+          }   
+          .our-location .containers{
+            padding: 2rem 12rem 5rem 12rem;
+          }
+          .our-location .containers h2{
+            font-family: 'Lato',sans-serif;
+            font-weight:300 ;
+            font-size: 38.4px;
+            line-height: 49.92px;
+            letter-spacing: 3px;
+            margin-bottom: 4rem;
+            } 
+          .our-location .containers h3{
+            font-family: 'Lato',sans-serif;
+            font-weight:400 ;
+            font-size: 22.4px;
+            line-height: 31.36px;
+            letter-spacing: 2px;
+            color: #b58f61;
+            } 
+           .our-location .containers .underline{
+               width: 66%;
+              height: 1px;
+              background-color: #b58f61;
+              margin-top: 1rem;
+              margin-bottom: 1rem;
+              }
+              .our-location .containers p{
+                font-family: 'Lato',sans-serif;
+                font-weight:300 ;
+                font-size: 17.6px;
+                line-height: 33.44px;
+               }
+               .our-location .containers  a{
+                font-family: 'Lato',sans-serif;
+                font-weight:500 ;
+                font-size: 17.6px;
+                line-height: 33.44px;
+                color: #b58f61;
+                text-decoration:underline;
+               }
+               section.bg-image .img-div.contact-us-img{
+                background-image: url('../images/shutterstock_1149511736-2000Wx1064H.jpg');
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+                background-attachment: fixed;
+                background-position: center center;
+              }
 @media (min-width:1050px) and (max-width:1198px){
     .nav-bar .navbar-ul .nav-item .nav-link{
         font-size: 13px;
@@ -1284,7 +1619,7 @@ section.bg-image.gastro-sec .img-div{
       font-size: 30.4px;
       line-height: 39.52px;
     }
-    .desc-article .containers .info h4{
+    .desc-article .containers info h4{
       font-size: 22.4px;
       line-height: 31.36px;
     }
@@ -1363,6 +1698,16 @@ section.bg-image.gastro-sec .img-div{
   }
   .our-services .features-sec .left-side:nth-child(even){
     padding-right: 6.2rem;
+  }
+  section.process-image{
+    width: 100%;
+    height:330px;
+  }
+  .contact-office .containers{
+    padding: 3.4rem 5.5rem;
+  }
+  .our-location .containers{
+    padding: 0rem 5.5rem 3.4rem;
   }
 }
 @media (max-width:1060px){
@@ -1666,7 +2011,55 @@ margin-right: auto;
           font-size: 19.2px;
           line-height:31.68px;
         }
-
+        section.ysk-section{
+          background-color: white;
+          padding: 50px 80.0781px 40px ;
+        }
+        section.ysk-section .title{
+          margin-bottom: 3rem;
+       }
+       section.ysk-section .title h2{
+         font-family: 'Lato',sans-serif;
+         font-weight:300;
+         font-size: 30.4px;
+         line-height:39.49px;
+      }
+      section.ysk-section  .containers {
+        column-gap: 45px;
+      
+      }
+      section.ysk-section  .containers .card{
+        margin-right: 0px;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 40%;
+        margin-bottom:20px;
+     }
+     section.ysk-section  .containers .card:nth-child(even){
+       margin-right: 0px;
+     }
+     section.ysk-section  .containers .card:nth-child(4), section.ysk-section  .containers .card:nth-child(3)  {
+      margin-right: 0px;
+      flex-grow: 1;
+      flex-shrink: 1;
+      flex-basis: 40%;
+    }
+    section.ysk-section  .containers .card:last-child{
+      margin-right: 0px;
+      flex-grow: 0;
+      flex-shrink: 0;
+      flex-basis: 47%;
+    }
+    section.process-image{
+      width: 100%;
+      height:330px;
+    }
+    .contact-office .containers{
+      padding: 3.4rem 5.5rem;
+    }
+    .our-location .containers{
+      padding: 0rem 5.5rem 3.4rem;
+    }
 }
 
 @media (max-width:992px){
@@ -1763,6 +2156,29 @@ margin-right: auto;
           .EatingDisorder-symptom .text{
             margin-bottom: 0.7rem;
            } 
+           section.ysk-section{
+            padding: 50px 66.640px 40px ;
+          }
+          .contact-office .containers .right-div {
+            padding-left: 1rem;
+          }
+          .our-location .containers h2{
+            font-size: 30.4px;
+            line-height: 39.92px;
+            margin-bottom: 1rem;
+            } 
+          .our-location .containers h3{
+            font-size: 22.4px;
+            line-height: 31.36px;
+            } 
+           .our-location .containers .underline{
+               width: 25%;
+              }
+              .our-location .containers p{
+                font-size: 19.6px;
+                line-height: 31.68px;
+                margin-bottom: 0;
+               }
 }
 @media (max-width:772px){
   .slider .img-container img{
@@ -2073,7 +2489,53 @@ margin-bottom: 0.8rem;
             font-size: 16.6px;
             line-height:27.44px;
           }
-}
+          section.ysk-section{
+            padding: 20px 40px ;
+          }
+          section.ysk-section .title h2{
+            font-size: 24px;
+            line-height:31.2px;
+         }
+         section.ysk-section  .containers{
+           column-gap: 0px;
+        }
+         section.ysk-section  .containers .card{
+          margin-right: 0px;
+          flex-grow: 1;
+          flex-shrink: 1;
+          flex-basis: 100%;
+       }
+       section.ysk-section .title{
+        margin-bottom: 1rem;
+     }
+     section.ysk-section  .containers .card:nth-child(3),section.ysk-section  .containers .card:nth-child(4),section.ysk-section  .containers .card:last-child{
+      margin-right: 0px;
+          flex-grow: 1;
+          flex-shrink: 1;
+          flex-basis: 100%;
+    }
+    .desc-article .containers  button.frequent-btn{
+      padding: 15px;   
+   }
+   section.process-image{
+    width: 100%;
+    height:280px;
+    margin-bottom: 1rem;
+  }
+  .contact-office .containers{
+    padding: 2rem 3rem;
+  }
+.contact-office .containers .right-div {
+          padding-left: 1rem;
+        }
+        
+ .contact-office .containers button{
+  padding: 15px ;
+   }
+   .our-location .containers{
+    padding: 2rem 3rem;
+  }
+  }
 
 
 @media (max-width:580px){
@@ -2098,6 +2560,7 @@ margin-bottom: 0.8rem;
         font-size: 1.4rem;
       }
       .nav-bar .navbar-brand h3{
+
           font-size: 1rem; 
         }
         .slider .img-container img{
@@ -2380,6 +2843,77 @@ section.contact .contact-info button:hover a{
     text-transform: lowercase;
     text-transform: uppercase;
   }
+  .desc-article .containers  button.frequent-btn{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300 !important;
+    font-size: 14.5px;    
+    padding: 8px;    
+   }
+  .desc-article .containers  button.frequent-btn a{
+    font-size: 14.4px;
+   }
+   .desc-article .containers  button.frequent-btn a::after{
+   right: 8px;
+   }
+   .desc-article .containers  button.frequent-btn:hover a{
+    padding-right: 33px;
+    }
+   .desc-article .containers  button.frequent-btn:hover{
+     padding-right: 0px;
+    }
+    .contact-office .containers{
+      padding: 2rem 2.7rem ;
+    }
+ .contact-office .containers .right-div {
+            padding-left: 1rem;
+          }
+          .contact-office .containers h2{
+          font-size: 17.4px;
+          line-height: 24.64px;
+          }
+          .contact-office .containers p{
+            font-size:16px ;
+            line-height:24.8px ;
+            }
+            .contact-office .containers .underline{
+              width: 20%;
+              }
+              .contact-office .containers .right-div address{
+                font-size:16px ;
+                line-height:24.8px ;
+                }
+                .contact-office .containers .right-div address h2{
+                  font-size: 17.4px;
+                  line-height: 24.64px;
+                  }
+                .contact-office .containers  button{
+                  font-size:14.4px ;
+                  line-height:24.8px ;
+                  padding: 6px 8px;
+                  }
+                  .our-location .containers{
+                    padding: 0rem 2.7rem 3rem;
+                  }
+                  .our-location .containers h2{
+                    font-size: 24px;
+                   line-height: 31.2px;
+                    } 
+                  .our-location .containers h3{
+                    font-size: 17.4px;
+                   line-height: 24.64px;
+                    } 
+                   .our-location .containers .underline{
+                       width: 20%;
+                      }
+                      .our-location .containers p{
+                        font-size:16px ;
+                        line-height:24.8px ;
+                       }
+                       .our-location .containers  a{
+                        font-size:16px ;
+                        line-height:24.8px ;
+                       }
+
 }
 @media (max-width:420px){
     .nav-bar .navbar-brand{
@@ -2442,10 +2976,10 @@ section.contact .contact-info button:hover a{
         }
         section.contact .contact-info button{
           padding: 5.5px 8px 5.5px 8px  ;
-  }
-  section.contact .contact-info button a{
-   display: block;
-}
+       }
+    section.contact .contact-info button a{
+          display: block;
+        }
         section.bg-image{
           width: 100%;
           height: 38vh;
@@ -2552,6 +3086,15 @@ section.contact .contact-info button:hover a{
       }
       .patterns-second .img-div.gastro-img{
         height: 150px;
+      }
+      section.ysk-section{
+        padding: 20px 25.453px ;
+      }
+     .desc-article .containers  button.frequent-btn{
+        padding: 5.5px 8px 5.5px 8px  ;
+     }
+     .desc-article .containers  button.frequent-btn a{
+        display: block;
       }
 }
 @media (max-width:370px){
