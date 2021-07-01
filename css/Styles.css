@@ -268,15 +268,41 @@ section.slider .slide-img3{
 .desc-article .title {
   margin-bottom: 2rem;
 }
+.desc-article .title h6.date {
+  margin-bottom: 1.5rem;
+  font-family: 'Lato',sans-serif;
+  font-weight: 400;
+  font-size: 17.6px;
+  letter-spacing: 2px;
+  line-height: 22.88px;
+  color: #0D0D0D;
+}
 .desc-article .title h3{
   text-transform: uppercase;
   font-family: 'Lato',sans-serif;
   font-weight: 300;
   font-size: 38.4px;
   letter-spacing: 3px;
-  line-height: 30.4px;
+  line-height: 49.92px;
   color: #0D0D0D;
 }
+.desc-article .info .iframe-container{
+  position: relative;
+  width: 100%;
+  padding-top: 33.33%;
+  overflow: hidden;
+ }
+ .desc-article .info .iframe-container .responsive-iframe{
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   width: 55%;
+   height: 100%; 
+   border: 2px solid green;
+   border: none ;  
+   }
 .desc-article .info h4{
   color: #B58F61;
   font-weight: 400;
@@ -309,6 +335,7 @@ section.slider .slide-img3{
   .desc-article .info p a{
      color: #B58F61;
      text-decoration: underline;
+     font-weight: 500;
       
     }
     .our-philosophy{
@@ -1129,7 +1156,6 @@ section.bg-image.gastro-sec .img-div{
  letter-spacing:3px ;
  margin-bottom: 2rem;
 }
-
 .nutrition-sec .containers .info h4{
   font-family: 'Lato',sans-serif;
   font-size: 22.4px;
@@ -1311,6 +1337,10 @@ section.bg-image.gastro-sec .img-div{
    flex-shrink: 1;
    flex-basis: 25%;
    margin-bottom:20px;
+   cursor: pointer;
+}
+section.ysk-section  .containers a{
+ text-decoration: none;
 }
 section.ysk-section  .containers .card:nth-child(3),section.ysk-section  .containers .card:last-child{
   margin-right: 0px;
@@ -1343,6 +1373,7 @@ section.ysk-section  .containers .card .card-body .card-text{
   font-weight: 400;
   line-height: 14.3px;
   letter-spacing: 1px;
+  color: black;
  }
  section.bg-image .img-div.ysk-img{
   background-image: url('../images/shutterstock_1562660956-2000Wx1064H.jpg');
@@ -1607,6 +1638,223 @@ section.ysk-section  .containers .card .card-body .card-text{
                 background-attachment: fixed;
                 background-position: center center;
               }
+              .service-header.schedule-call-header .img-container{
+                background-image: url('../images/shutterstock_1569501247-2000Wx1064H.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 100%;
+                height: 100vh;
+                background-position: center center;
+                background-color: silver;
+                position: relative;
+                background-attachment: fixed;
+              }
+              .schedule-call-form  {
+              margin-bottom: 0rem;
+              } 
+      .schedule-call-form  .containers{
+        padding: 1rem 12rem 2rem 12rem;
+      }    
+      .schedule-call-form  .containers h2{
+       font-size: 38.4px;
+       font-family:'Lato',sans-serif;
+       font-weight: 300;
+       line-height: 49.92px ;
+       letter-spacing:3px ;
+       margin-bottom: 30px;
+      }  
+      .schedule-call-form  .containers .card{
+        padding: 47.2031px;
+       }  
+       .schedule-call-form  .containers .card h4{
+        font-size: 17.6px;
+        font-family:'Lato',sans-serif;
+        font-weight: 700;
+        line-height: 22.88px ;
+        color: #b58f61;
+        text-transform: uppercase;
+        margin-bottom: 0.7rem;
+       }  
+       .schedule-call-form  .containers .card h4.space-upper{
+        margin-top: 1.3rem;
+       } 
+       .schedule-call-form  .containers .card p{
+        font-size: 14.3088px;
+        font-family:'Lato',sans-serif;
+        font-weight: 300;
+        letter-spacing: normal;
+        line-height: 20.44px;
+       } 
+       .schedule-call-form  .containers .card h4 span{
+       color: #790000;
+       margin-left: 3px;
+       }  
+       .schedule-call-form  .containers .card .form-group input{
+        border: 1px solid rgb(133, 133, 133);
+        }  
+        .schedule-call-form  .containers .card .form-group + p {
+          font-size: 12.1088px;
+          font-family:'Lato',sans-serif;
+          font-weight: 300;
+          letter-spacing: normal;
+          line-height: 33.44px;
+          }  
+        .schedule-call-form  .containers .card .form-group input:focus{
+          border: 2px solid black;
+          outline: none !important;
+          box-shadow: none;
+          }  
+          .schedule-call-form  .containers .card .form-group label{
+            font-size: 14.3088px;
+            font-family:'Lato',sans-serif;
+            font-weight: 300;
+            letter-spacing: 0.6666px;
+            margin:1px 0px 9px 1px;
+            } 
+            .schedule-call-form  .containers .card .form-group .form-check label{
+              font-size: 15.4px;
+              font-family:'Lato',sans-serif;
+              font-weight: 300;
+              line-height: 23.1px;
+              letter-spacing:normal;
+              margin:0px 0px 0px 0px;
+              } 
+              .schedule-call-form  .containers .card .form-group .form-check input:checked ~ label{
+                font-weight: 700;
+                }
+                .schedule-call-form  .containers .card  .form-check .form-check-label   {
+                  font-size: 15.4px;
+                  font-family:'Lato',sans-serif;
+                  font-weight: 300;
+                  line-height: 23.1px;
+                  letter-spacing:normal;
+                  margin:0px 0px 0px 0px;
+                 
+                  } 
+                  .schedule-call-form  .containers .card  .form-check .form-check-label input:checked  ~   span{
+                    font-weight: 700;
+                    }  
+                    .schedule-call-form  .containers .card .form-group textarea{
+                      border: 1px solid rgb(133, 133, 133);
+                      }  
+                   .schedule-call-form  .containers .card .form-group textarea:focus{
+                        border: 2px solid black;
+                        outline:none ;
+                        box-shadow: none;
+                     }  
+                 .schedule-call-form  .containers .card select {
+                      font-size: 16px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: 400;
+                        border: 1px solid rgb(133, 133, 133);
+                        width: 400px;   
+                        box-shadow: none;  
+                   } 
+                   .schedule-call-form  .containers .card select option{
+                    font-size: 16px;
+                      font-family: Arial, Helvetica, sans-serif;
+                      font-weight: 400;
+                 }  
+                     
+        .schedule-call-form .containers .btn-submit{
+          width: 120px;
+          border: 1px solid rgb(133, 133, 133);
+          outline: none;  
+          font-size: 16px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 400;
+          padding: 0px 0px;
+          margin-top: 1rem;
+        }    
+        section.bg-image .img-div.schedule-img{
+          background-image: url('../images/shutterstock_1207202116-2000Wx1064H.jpg');
+          background-repeat: no-repeat;
+          width: 100%;
+          height: 100%;
+          background-size: cover;
+          background-attachment: fixed;
+          background-position: center center;
+        }  
+        .service-header.nutri-mental-header  .img-container{
+          background-image: url('../images/shutterstock_1201677928-2000Wx1064H.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 100%;
+          height: 100vh;
+          background-position: center center;
+          background-color: silver;
+          position: relative;
+          background-attachment: fixed;
+        }
+        section.bg-image .img-div.nutri-health-img{
+          background-image: url('../images/shutterstock_1548747425-2000Wx1064H.jpg');
+          background-repeat: no-repeat;
+          width: 100%;
+          height: 100%;
+          background-size: cover;
+          background-attachment: fixed;
+          background-position: center center;
+        }  
+        .service-header.body-quaran-header  .img-container{
+          background-image: url('../images/shutterstock_263223770.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 100%;
+          height: 100vh;
+          background-position: center center;
+          background-color: silver;
+          position: relative;
+          background-attachment: fixed;
+        }
+        section.bg-image .img-div.body-quarin-img{
+          background-image: url('../images/shutterstock_567591517-2000Wx1064H.jpg');
+          background-repeat: no-repeat;
+          width: 100%;
+          height: 100%;
+          background-size: cover;
+          background-attachment: fixed;
+          background-position: center center;
+        } 
+        .service-header.the-beyond-header  .img-container{
+          background-image: url('../images/shutterstock_1455923216-2000Wx1064H-300x159.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 100%;
+          height: 100vh;
+          background-position: center center;
+          background-color: silver;
+          position: relative;
+          background-attachment: fixed;
+        }
+        section.bg-image .img-div.the-beyond-img{
+          background-image: url('../images/shutterstock_1177744177-2000Wx1064H.jpg');
+          background-repeat: no-repeat;
+          width: 100%;
+          height: 100%;
+          background-size: cover;
+          background-attachment: fixed;
+          background-position: center center;
+        } 
+        .service-header.slef-care-header  .img-container{
+          background-image: url('../images/shutterstock_256343584-2000Wx1064H.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 100%;
+          height: 100vh;
+          background-position: center center;
+          background-color: silver;
+          position: relative;
+          background-attachment: fixed;
+        }
+        section.bg-image .img-div.self-care-img{
+          background-image: url('../images/shutterstock_1385354993-2000Wx1064H.jpg');
+          background-repeat: no-repeat;
+          width: 100%;
+          height: 100%;
+          background-size: cover;
+          background-attachment: fixed;
+          background-position: center center;
+        } 
 @media (min-width:1050px) and (max-width:1198px){
     .nav-bar .navbar-ul .nav-item .nav-link{
         font-size: 13px;
@@ -1709,11 +1957,17 @@ section.ysk-section  .containers .card .card-body .card-text{
   .our-location .containers{
     padding: 0rem 5.5rem 3.4rem;
   }
+  .schedule-call-form  .containers{
+    padding: 0rem 3rem 2rem 3rem;
+  }    
+  .schedule-call-form  .containers h2{
+    font-size: 30.4px;
+  
+   }  
 }
 @media (max-width:1060px){
     .nav-bar{
         height: 140px;
- 
      }
      .nav-bar .checkbtn{
         line-height: 140px;
@@ -1837,6 +2091,13 @@ section.ysk-section  .containers .card .card-body .card-text{
   font-size: 19.2px;
   line-height: 31.68px;
 }
+.desc-article .info .iframe-container{
+  padding-top: 56.25%;
+ }
+.desc-article .info .iframe-container .responsive-iframe{
+  width: 100%;
+  height: 100%; 
+  }
 .our-philosophy{
   height: 90vh;
 }
@@ -2054,12 +2315,26 @@ margin-right: auto;
       width: 100%;
       height:330px;
     }
-    .contact-office .containers{
+    .contact-office .containers {
       padding: 3.4rem 5.5rem;
+     
     }
     .our-location .containers{
       padding: 0rem 5.5rem 3.4rem;
     }
+    .schedule-call-form  .containers{
+      padding: 1rem 2rem 2rem 2rem;
+      background-color: #e9ecef;
+    } 
+    .schedule-call-form  .containers .card{
+      background: #e9ecef;
+      border: none;
+     outline: none;
+     padding: 0px;
+    } 
+    .schedule-call-form  .containers h2{
+      font-size: 30.4px;
+     } 
 }
 
 @media (max-width:992px){
@@ -2179,12 +2454,17 @@ margin-right: auto;
                 line-height: 31.68px;
                 margin-bottom: 0;
                }
+               .schedule-call-form  .containers .card .form-group textarea:focus{
+                border: 2px solid orange;
+             }  
+          
 }
 @media (max-width:772px){
   .slider .img-container img{
     width: 344px;
     height: 61px;
   }
+
   section.slider .overlay{
     padding-left: 10px;
     padding-right: 10px;
@@ -2535,8 +2815,14 @@ margin-bottom: 0.8rem;
    .our-location .containers{
     padding: 2rem 3rem;
   }
+  .schedule-call-form  .containers .card select {
+      width: 100%;    
+ } 
+  .schedule-call-form .containers .btn-submit{
+    width:100%;
+   padding: 2px 6px;
+  }  
   }
-
 
 @media (max-width:580px){
     .nav-bar{
@@ -2572,6 +2858,10 @@ margin-bottom: 0.8rem;
         }
         .desc-article .containers .title{
           margin-bottom: 1.7rem;
+        }
+        .desc-article .containers .title h6.date{
+          font-size: 1rem;
+          margin-bottom: 0.6rem;
         }
         .desc-article .containers .title h3{ 
           font-size: 24px;
@@ -2913,7 +3203,32 @@ section.contact .contact-info button:hover a{
                         font-size:16px ;
                         line-height:24.8px ;
                        }
-
+                    .schedule-call-form  .containers{
+                        padding: 0rem 1.5rem 2rem 1.5rem;
+                   }  
+                   .schedule-call-form  .containers h2{
+                    font-size: 24px;
+                    font-weight: 300;
+                    line-height: 31.2px ;
+                   }  
+                   .schedule-call-form  .containers .card h4{
+                    font-size: 16px;
+                    line-height: 20.8px ;
+                   }  
+                   .schedule-call-form  .containers .card p{
+                    font-size: 13.088px;
+                    line-height: 24.8px;
+                   }
+                   .schedule-call-form  .containers .card .form-group label{
+                    font-size: 13.088px;
+                    line-height: 24.8px;
+                    }
+                    .schedule-call-form  .containers .card .form-group .form-check label{
+                      line-height: 23.4px;
+                      }  
+                    .schedule-call-form  .containers .card  .form-check .form-check-label   {
+                        font-size: 14px;
+                        }          
 }
 @media (max-width:420px){
     .nav-bar .navbar-brand{
