@@ -14,8 +14,10 @@
   
      <!-- Brand -->
     <div class="navbar-brand">
-      <h2>Appleman <span> Nutrition</span></h2>
-      <h3>Embracing Food and Body</h3>
+      <a href="index.html">
+        <h2>Appleman <span> Nutrition</span></h2>
+        <h3>Embracing Food and Body</h3>
+    </a>  
     </div>
   
     <!-- Toggler/collapsibe Button -->
@@ -120,9 +122,11 @@
                   </div>
                </div><!--form-row end-->
                <h4>PREFERRED DAY(S)<span>*</span></h4>
+            
+               <div class="mycheckboxes">
                <div class="form-group"><!--form-group start-->
                 <div class="form-check"><!--form-check start-->
-                  <input class="form-check-input" type="checkbox" id="Monday" name="monday">
+                  <input class="form-check-input" value="Monday" type="checkbox" id="Monday" name="monday">
                   <label class="form-check-label" for="Monday" >
                     Monday
                   </label>
@@ -130,7 +134,7 @@
               </div><!--form-group start-->
               <div class="form-group"><!--form-group start-->
                 <div class="form-check"><!--form-check start-->
-                  <input class="form-check-input" type="checkbox" id="Tuesday" name="tuesday">
+                  <input class="form-check-input" value="tuesday" type="checkbox" id="Tuesday" name="tuesday">
                   <label class="form-check-label" for="Tuesday">
                     Tuesday
                   </label>
@@ -138,7 +142,7 @@
               </div><!--form-group start-->
               <div class="form-group"><!--form-group start-->
                 <div class="form-check"><!--form-check start-->
-                  <input class="form-check-input" type="checkbox" id="Wednesday" name="Wednesday">
+                  <input class="form-check-input" value="Wednesday"  type="checkbox" id="Wednesday" name="Wednesday">
                   <label class="form-check-label" for="Wednesday">
                     Wednesday
                   </label>
@@ -146,7 +150,7 @@
               </div><!--form-group start-->
               <div class="form-group"><!--form-group start-->
                 <div class="form-check"><!--form-check start-->
-                  <input class="form-check-input" type="checkbox" id="Thursday" name="Thursday">
+                  <input class="form-check-input" value="Thursday" type="checkbox" id="Thursday" name="Thursday">
                   <label class="form-check-label" for="Thursday">
                     Thursday
                   </label>
@@ -154,33 +158,36 @@
               </div><!--form-group start-->
               <div class="form-group"><!--form-group start-->
                 <div class="form-check"><!--form-check start-->
-                  <input class="form-check-input" type="checkbox" id="Friday" name="Friday">
+                  <input class="form-check-input" value="Friday" type="checkbox" id="Friday" name="Friday">
                   <label class="form-check-label" for="Friday">
                     Friday
                   </label>
                 </div><!--form-check start-->
               </div><!--form-group start-->
+            </div>
               <h4>SELECT PREFERRED TIME-FRAME<span>*</span></h4>
+              <div class="myradiobtn">
               <div class="form-check"><!--form-check start-->
                 <label class="form-check-label">
-                  <input type="radio" class="form-check-input" name="PTime"><span>9:00am-12:00pm</span>
+                  <input type="radio" value="9:00am-12:00pm" class="form-check-input" name="PTime"><span>9:00am-12:00pm</span>
                 </label>
               </div><!--form-check end-->
               <div class="form-check"><!--form-check start-->
                 <label class="form-check-label">
-                  <input type="radio" class="form-check-input" name="PTime"><span>12:00-3:00pm</span>
+                  <input type="radio" value="12:00-3:00pm" class="form-check-input" name="PTime"><span>12:00-3:00pm</span>
                 </label>
               </div><!--form-check end-->
               <div class="form-check"><!--form-check start-->
                 <label class="form-check-label">
-                  <input type="radio" class="form-check-input" name="PTime"><span>3:00-6:00pm</span>
+                  <input type="radio" value="3:00-6:00pm" class="form-check-input" name="PTime"><span>3:00-6:00pm</span>
                 </label>
               </div><!--form-check end-->
               <div class="form-check"><!--form-check start-->
                 <label class="form-check-label">
-                  <input type="radio" class="form-check-input" name="PTime"><span>6:00-8:00pm</span>
+                  <input type="radio" value="6:00-8:00pm"  class="form-check-input" name="PTime"><span>6:00-8:00pm</span>
                 </label>
               </div><!--form-check end-->
+            </div>
               <h4 class="space-upper">SHORT INTRODUCTORY MESSAGE<span>*</span></h4>
               <p>Please briefly share your motivation for reaching out to us. A sentence or two would be great; we'll discuss specifics via phone.</p>
               <div class="form-group"><!--form-group start-->
@@ -200,14 +207,14 @@
               <p>How did you hear about Appleman Nutrition?</p>
               <div class="form-group"><!--form-group start-->
                 <select class="form-control" id="method" name="method">
-                  <option value="">Please select referral method</option>
+                  <option value="null">Please select referral method</option>
                   <option value="Word of mouth / Recommendation">Word of mouth / Recommendation</option>
                   <option value="Web search / Google">Web search / Google</option>
                   <option value="Physician/Therapist Referral">Physician/Therapist Referral</option>
                   <option value="Other">Other</option>
                 </select>
               </div><!--form-group end-->
-              <button class=" btn-submit" type="submit" name="submit">Send Message</button>
+              <button class="btn-submit" type="submit" name="submit">Send Message</button>
             </div><!--card end-->
         </form>
        </div>
@@ -241,14 +248,14 @@
       <h5>Greenwich CT</h5>
     </div>
     <div class="address-info">
-      <h6>917.885.4624 | <a href="#" title="contact us">Contact Us</a></h6>
+      <h6>917.885.4624 | <a href="contact-nutritionist.html" title="contact us">Contact Us</a></h6>
     </div>
   </div>
   <div class="right-div">
     <div class="social-icon">
-      <i class="fab fa-instagram"></i>
-      <i class="fab fa-twitter"></i>
-      <i class="fab fa-facebook"></i>
+      <a href="https://www.instagram.com/applemannutrition/" target="_blank"><i class="fab fa-instagram"></i></a> 
+     <a href="https://twitter.com/eatrealfoodnyc?lang=en" target="_blank"><i class="fab fa-twitter"></i></a> 
+     <a href="https://www.facebook.com/ApplemanNutrition/" target="_blank"><i class="fab fa-facebook"></i></a> 
     </div>
     <div class="address-logo">
       <img src="images/appleman-horizontal-logo-white.png" alt="Address logo">
@@ -261,7 +268,7 @@
 </footer>
 <div class="copy-right">
   <h6>©2010-2021 APPLEMAN NUTRITION.</h6>
-  <h6>WEBSITE BY <a href="#" title="GUAVAWEB"> GUAVAWEB</a></h6>
+  <h6>WEBSITE BY <a href="mailto:studio@guavaweb.com" title="GUAVAWEB"> GUAVAWEB</a></h6>
 </div>
 <!--footer end-->
 
@@ -271,6 +278,7 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/schedule-call.js"></script>
   
     <noscript>Your Browser does not support script or scripting is currently turned off in the browse</noscript>
 </body>

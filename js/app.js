@@ -46,14 +46,32 @@ if(broswerWidth > 1050 && broswerWidth < 1180 ){
     menu.style.display = 'none';
     Main_menu.setAttribute('id','show-navbar-ul');
  }
- 
 };
-
-
-
+window.onresize = function() {        
+  let broswerWidth = window.innerWidth; 
+if(broswerWidth > 1060 ){
+   let link = document.querySelector('.navbar-ul .drop-down .nav-link');
+   link.addEventListener('click',function(){
+       location.href = location.hostname;
+   });
+}
+}
 collpase_btn.forEach(function(btns){
      btns.addEventListener('click',function(e){
      let   target = e.currentTarget.parentElement.lastElementChild;
      target.classList.toggle("show-collapse-menu")
      });
 });
+
+//slider 
+
+var current = 0,
+    slides = document.querySelectorAll(".slider .img-container .slide");
+
+setInterval(()=>{
+   for(let i=0; i<slides.length; i++ ){
+       slides[i].style.opacity = 0;
+   }
+    current  = (current != slides.length - 1) ? current + 1 : 0;
+    slides[current].style.opacity = 1;
+},6000);
